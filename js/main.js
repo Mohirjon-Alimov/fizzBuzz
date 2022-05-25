@@ -15,7 +15,7 @@ elForm.addEventListener("submit", function (evt){
   if(inpValue %3 === 0 && inpValue %5 === 0) {
     content.textContent = "FizzBuzz";
   }else if (inpValue %5 === 0){
-    content.textContent = "FIzz";
+    content.textContent = "Fizz";
   }else if (inpValue %3 === 0){
     content.textContent = "Buzz";
   }else {
